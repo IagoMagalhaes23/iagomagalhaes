@@ -1,119 +1,374 @@
 <!DOCTYPE html>
-<html lang = "pt-br">
-	<head>
-		<title>
-			Iago Magalhães
-		</title>
-		<meta charset = "utf-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
-		<link rel = "stylesheet" type = "text/css" href = "./css/style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
-		<link rel = "shortcut icon" href = "./img/Iago.jpg" type = "image/x-icon" />
-		<script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header>
-			<div class = "container_menu">
-				<div class = "name">
-					<a href = "index.html"> IAGO MAGALHÃES </a>
-				</div>
-				<nav class = "menu">
-					<ul>
-						<li> <a href = "portfolio.html"> PORTFÓLIO </a></li>
-						<li> <a href = "cursos.html"> CURSOS </a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class = "titulo">
-				<h1 class = "site-title"> Hello, I'm IAGO MAGALHÃES </h1>
-				<div class="texto-central">
-					<p> {Industrial Mechatronics Student} </p>
-				</div>
-			</div>
-		</header>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Iago Magalhães</title>
+    </head>
+    <body>
+        <header class="profile container">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-		<section class = "sobre container">
-			<h2> Sobre </h2>
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil.jpg" alt="">
+                        </div>
+                    </div>
 
-			<figure>
-				<img class = "avatar" src = "./img/Iago.jpg" alt = "Alura">
-			</figure>
+                    <h2 class="profile__name">Iago Magalhães</h2>
+                    <h3 class="profile__profession">IA developer</h3>
 
-			<p>
-		    	Prazer, meu nome é Iago Magalhães, sou estudante do curso de Mecatrônica Industrial no IFCE Campus Sobral. Tenho formação técnica em Informática na E.E.E.P Francisca Castro de Mesquita. Atualmente, promovo cursos de Introdução ao Arduino e a Robótica pela Liga Ecoar. E na vida acadêmica, sou pesquisador na área de Visão Computacional e Inteligência Artificial, sou membro ativo do grupo de robótica(GEPRO) como programador e desenvolvedor de hardware e monitor da disciplina de Eletricidade e Eletromagnetismo.
-		    </p>
-		    <p>
-		        Tenho como interesse às áreas de Visão Computacional, Machine Learning, Robótica Móvel e Automação. Mas meus interesses vão além desses conteúdos e sempre busco aprender novas tecnologias que se adaptem ao cenário atual.
-		    </p>
-		    <p>
-		    	Meu interesse pela tecnologia e a inovação estão presentes no meu dia a dia, estou sempre desenvolvendo projetos voltados a automação de tarefas simples em minha residência e em locais que frequento. Gosto de compartilhar meus conhecimentos e acredito que essa seja a forma correta de gerar novas oportunidades no mundo da tecnologia. E devido a isso criei este espaço para compartilhar alguns desses projetos.
-		    </p>
-		    <p>
-		        Atualmente tenho buscado novos conhecimentos nas áreas de Ciência de Dados e Redes Neurais Artificiais utilizando a linguagem Python.
-		    </p>
-		</section>
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/iago_magalhaes11/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/iago-magalh%C3%A3es-81a3ab1b7/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/IagoMagalhaes23" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
 
-		<section class = "portfolio">
-			<h2> Minhas Habilidades </h2>
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/Iago.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
 
-			<div class = "grid">
-				<figure>
-					<img class = "img-portfolio" src = "./img/java.png" alt = "Java">
-					<figcaption> Java </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/python.png" alt = "Python">
-					<figcaption> Python </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/mysql.png" alt = "MySql">
-					<figcaption> MySql </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/html.png" alt = "HTML">
-					<figcaption> HTML </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/css.png" alt = "CSS">
-					<figcaption> CSS </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/js.png" alt = "JavaScript">
-					<figcaption> JavaScript </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/php.png" alt = "PHP">
-					<figcaption> PHP </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/arduino.png" alt = "Arduino">
-					<figcaption> Arduino </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/iot.png" alt = "IoT">
-					<figcaption> IoT </figcaption>
-				</figure>
-				<figure>
-					<img class = "img-portfolio" src = "./img/raspberry.png" alt = "Raspberry Pi">
-					<figcaption> Raspberry Pi </figcaption>
-				</figure>
-			</div>
-		</section>
+        <main class="main">
+            <section class="filters container">
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projetos
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
 
-		<section class = "contato">
-			<h2> Contato </h2>
+                <div class="filters__sections">
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/Projeto1.png" alt="" class="projects__img">
 
-			<div class = "grid icons">
-				<a target = "_blank" href = "https://github.com/IagoMagalhaes23">
-					<i class = "fab fa-github"></i>
-				</a>
-				<a target = "_blank" href = "https://www.instagram.com/iago_magalhaes11/">
-					<i class = "fab fa-instagram"></i>
-				</a>
-				<a target = "_blank" href = "mailto:iagomagalhaes23@gmail.com">
-					<i class="fas fa-envelope"></i>
-				</a>
-			</div>
-		</section>
-	</body>
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Rede CNN</span>
+                                    <h3 class="projects__title">Classificador de pacientes com COVID-19 através de exames de raio-X</h3>
+                                    <a href="https://github.com/IagoMagalhaes23/Machine-Learning-com-Frameworks/blob/main/Rede_CNN_Classificador.ipynb" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Projeto3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Dashboard</span>
+                                    <h3 class="projects__title">Dashboard com python</h3>
+                                    <a href="https://github.com/IagoMagalhaes23/Dashboard-Python" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Projeto3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Visão Computacional</span>
+                                    <h3 class="projects__title">Controle de volume através de gestos</h3>
+                                    <a href="https://github.com/IagoMagalhaes23/Controle-Volume-com-Vis-o-Computacional" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Projeto2.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">WEB</span>
+                                    <h3 class="projects__title">Clone Instagram</h3>
+                                    <a href="https://github.com/IagoMagalhaes23/Clone-Instagram" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/Projeto4.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">WEB</span>
+                                    <h3 class="projects__title">Dashboard Stars Wars</h3>
+                                    <a href="https://github.com/IagoMagalhaes23/Dashboard---Stars-Wars" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">IA Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Scikit-Learn</h3>
+                                            <span class="skills__level">Avançado</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Keras</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Pandas</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Matplotlib</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Numpy</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">TensorFlow</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Electronics developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Eagle</h3>
+                                            <span class="skills__level">Avançado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Arduino</h3>
+                                            <span class="skills__level">Avançado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">ESP32</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Raspberry PI</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Avançado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Avançado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">React Native</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git e GitHub</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Developer</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Avançado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PHP</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Java</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Iago;
+            </span>
+        </footer>
+
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
