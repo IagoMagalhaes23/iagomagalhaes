@@ -1,5 +1,5 @@
-# iagomagalhaes
-Site com o portfólio online, com o objetivo de exibir projetos desenvolvidos em diferentes linguagens.
+# Apresentação
+Site com o portfólio online, com o objetivo de exibir projetos desenvolvidos em diferentes áreas e linguagens. Apresentando projetos desenvolvidos em áreas como ciências de dados, aprendizado de máquina, visão computacional, web e eletrônica.
 
 ## Objetivo
 O ojetivo deste projeto é demostrar de forma prática projetos e habilidades, visando ser um portfólio online.
