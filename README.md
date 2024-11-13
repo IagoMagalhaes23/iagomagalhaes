@@ -1,5 +1,6 @@
 # Apresentação
 Site com o portfólio online, com o objetivo de exibir projetos desenvolvidos em diferentes áreas e linguagens. Apresentando projetos desenvolvidos em áreas como ciências de dados, aprendizado de máquina, visão computacional, web e eletrônica.
+<br>
 **Link:** https://iagomagalhaes23.github.io/iagomagalhaes
 
 ## Objetivo
